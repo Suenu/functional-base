@@ -11,7 +11,6 @@ const Template = () => {
     const [loading, setLoading] = useState(false)
 
     const getData = async () => {
-        console.log("Holla");
         setLoading(true)
         const response = await getPlaceholderData();
         if (response) {
@@ -31,8 +30,6 @@ const Template = () => {
             showResponse: false,
         }))
     }
-
-    console.log(state);
     return (
         <Fragment>
             {!state.showResponse ?

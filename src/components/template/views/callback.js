@@ -1,7 +1,4 @@
-import { Fragment } from "react"
-
 const Callback = ({ response, reset }) => {
-
     return (
         <div className="text-center">
             <h1>
